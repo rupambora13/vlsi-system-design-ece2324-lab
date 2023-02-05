@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../VLSI_System_Design_ECE2324_LAB.srcs/sources_1/new/nand_gate.vhd" \
+"../../../../VLSI_System_Design_ECE2324_LAB.srcs/gates_sim/new/nand_tb.vhd" \
+
+# Do not sort compile order
+nosort
